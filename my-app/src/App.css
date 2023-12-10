@@ -1,0 +1,114 @@
+/* Global styles */
+
+/* Top component */
+.Header {
+  margin-top: 0%;
+  padding-top: 10px;
+}
+
+.TopComponent {
+  background-color: #001845;
+  color: white;
+}
+
+.NavigationList {
+  display: flex;
+  list-style: none;
+  padding: 0%;
+}
+
+.NavigationList li {
+  margin-right: 30px;
+}
+
+.Link {
+  color: white;
+}
+
+.Welcome {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+.WelcomeHeader {
+  font-size: 3em;
+}
+
+.WelcomeParagraph {
+  padding-bottom: 20px;
+}
+
+/* News */
+.NewsFlexContainer {
+  display: flex;
+}
+
+.NewsImageDiv {
+  text-align: center;
+}
+
+.NewsImages {
+  margin-right: 10px;
+}
+
+/* Matches */
+.Matches {
+  display: block;
+}
+
+.MatchesTable {
+  margin: auto;
+  width: 50%;
+}
+
+.TableCells {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Blog */
+.BlogContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.LeftBlogColumn {
+  width: 40%;
+    text-align: center;
+    margin: 10px auto;
+    border: 3px solid #FCA311;
+    border-radius: 20px;
+}
+
+.RightBlogColumn {
+  width: 40%;
+    text-align: center;
+    margin: 10px auto;
+    border: 3px solid #FCA311;
+    border-radius: 20px;
+}
+
+/* Footer */
+.Footer {
+  background-color: #001845;
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+.FooterUl {
+  margin: auto;
+  width: 80%;
+  padding: 0%;
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 1.25em;
+}
+
+ul.FooterUl li {
+  list-style: none;
+  margin-right: 30px;
+  display: inline-block;
+}
