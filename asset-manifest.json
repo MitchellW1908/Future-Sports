@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MitchellW1908/Future-Sports/tree/main/my-app/static/css/main.3e4adb8b.css",
+    "main.js": "/MitchellW1908/Future-Sports/tree/main/my-app/static/js/main.e71e1039.js",
+    "static/js/787.d4aba7ab.chunk.js": "/MitchellW1908/Future-Sports/tree/main/my-app/static/js/787.d4aba7ab.chunk.js",
+    "index.html": "/MitchellW1908/Future-Sports/tree/main/my-app/index.html",
+    "main.3e4adb8b.css.map": "/MitchellW1908/Future-Sports/tree/main/my-app/static/css/main.3e4adb8b.css.map",
+    "main.e71e1039.js.map": "/MitchellW1908/Future-Sports/tree/main/my-app/static/js/main.e71e1039.js.map",
+    "787.d4aba7ab.chunk.js.map": "/MitchellW1908/Future-Sports/tree/main/my-app/static/js/787.d4aba7ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e4adb8b.css",
+    "static/js/main.e71e1039.js"
+  ]
+}
