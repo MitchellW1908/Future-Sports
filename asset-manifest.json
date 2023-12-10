@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/MitchellW1908/Future-Sports/tree/main/my-app/static/css/main.3e4adb8b.css",
-    "main.js": "/MitchellW1908/Future-Sports/tree/main/my-app/static/js/main.e71e1039.js",
-    "static/js/787.d4aba7ab.chunk.js": "/MitchellW1908/Future-Sports/tree/main/my-app/static/js/787.d4aba7ab.chunk.js",
-    "index.html": "/MitchellW1908/Future-Sports/tree/main/my-app/index.html",
-    "main.3e4adb8b.css.map": "/MitchellW1908/Future-Sports/tree/main/my-app/static/css/main.3e4adb8b.css.map",
-    "main.e71e1039.js.map": "/MitchellW1908/Future-Sports/tree/main/my-app/static/js/main.e71e1039.js.map",
-    "787.d4aba7ab.chunk.js.map": "/MitchellW1908/Future-Sports/tree/main/my-app/static/js/787.d4aba7ab.chunk.js.map"
+    "main.css": "/MitchellW1908/Future-Sports/static/css/main.3e4adb8b.css",
+    "main.js": "/MitchellW1908/Future-Sports/static/js/main.23fbe5b4.js",
+    "static/js/787.d4aba7ab.chunk.js": "/MitchellW1908/Future-Sports/static/js/787.d4aba7ab.chunk.js",
+    "index.html": "/MitchellW1908/Future-Sports/index.html",
+    "main.3e4adb8b.css.map": "/MitchellW1908/Future-Sports/static/css/main.3e4adb8b.css.map",
+    "main.23fbe5b4.js.map": "/MitchellW1908/Future-Sports/static/js/main.23fbe5b4.js.map",
+    "787.d4aba7ab.chunk.js.map": "/MitchellW1908/Future-Sports/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3e4adb8b.css",
-    "static/js/main.e71e1039.js"
+    "static/js/main.23fbe5b4.js"
   ]
 }
