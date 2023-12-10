@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A Single Page Application for Future Sports, a high-profile, national-level AFL club">
+    <meta name="keywords" content="Future Sports; AFL; sports; club">
+    <meta name="author" content="Mitchell Wootton">
+    <title>Future Sports</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=DM+Sans:opsz,wght@9..40,600&family=Montserrat:wght@400;600&family=Playpen+Sans:wght@600&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    
+</head>
+<body>
+
+    <!-- navigation, header, welcome paragraph -->
+    <section class="banner" id="home">
+        <div class="heading-navigation">
+            <h1 class="heading-future">Future Sports</h1>
+
+            <ul class="navigation">
+                <li><a href="#home" class="a-navigation">Home</a></li>
+                <li><a href="#about" class="a-navigation">About</a></li>
+                <li><a href="#matches" class="a-navigation">Matches</a></li>
+                <li><a href="#contact-us" class="a-navigation">Contact Us</a></li>
+                <input type="text" placeholder="Search...">
+            </ul>
+        </div>
+        <section class="welcome" id="about">
+            <h1 class="welcome-heading">Welcome to the official home of Future Sports!</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <h4>We are FutureSports</h4>
+            <p id="captain-coach"></p>
+        </section>
+    </section>
+
+    <main>
+        <section>
+            <h1 class="margin heading-2em">Gallery</h1>
+            <!-- <div class="flex-container">
+                <figure class="placeholder-text">
+                    <img src="/Images/dikaseva-8o4W9LZv6eo-unsplash.jpg" width="200px" height="100px" alt="Three people riding bikes with the sun in the background.">
+                    <figcaption>Gallery Placeholder 1</figcaption>
+                </figure>
+    
+                <figure class="placeholder-text">
+                    <img src="/Images/ricardo-gomez-angel-L6T_6Rp2iEk-unsplash.jpg" width="200px" height="100px" alt="A series of brightly coloured houses with green plants on the outside.">
+                    <figcaption>Gallery Placeholder 2</figcaption>
+                </figure>
+    
+                <figure class="placeholder-text">
+                    <img src="/Images/sven-V7WkmXntA8M-unsplash.jpg" width="200px" height="100px" alt="A single house on a hill in a rolling green valley.">
+                    <figcaption>Gallery Placeholder 3</figcaption>
+                </figure>
+
+                <figure class="placeholder-text">
+                    <img src="/Images/wexor-tmg-L-2p8fapOA8-unsplash.jpg" width="200px" height="100px" alt="A single house on a hill in a rolling green valley.">
+                    <figcaption>Gallery Placeholder 3</figcaption>
+                </figure>
+            </div> -->
+
+            <div class="slider">
+                <img id="img-1" src="/Images/ricardo-gomez-angel-L6T_6Rp2iEk-unsplash.jpg" alt="Image 1"/>
+                <img id="img-2" src="/Images/sven-V7WkmXntA8M-unsplash.jpg" alt="Image 2"/>
+                <img id="img-3" src="/Images/wexor-tmg-L-2p8fapOA8-unsplash.jpg" alt="Image 3"/>
+              </div>
+              <div class="navigation-button">
+                <span class="dot active" onclick="changeSlide(0)"></span>
+                <span class="dot" onclick="changeSlide(1)"></span>
+                <span class="dot" onclick="changeSlide(2)"></span>
+              </div>
+        </section>
+
+        <section>   
+            <h1 class="margin heading-2em">News</h1>
+            <div class="flex-container">
+                <div class="article">
+                    <article>
+                        <a href="https://www.abc.net.au/" target="_blank">
+                            <img src="/Images/dikaseva-8o4W9LZv6eo-unsplash.jpg" width="200px" height="100px">
+                        </a><br>
+                        <a href="https://www.abc.net.au/" target="_blank">News Item 1</a>
+                    </article>
+                </div>
+                 
+                <div class="article">
+                    <article>
+                        <a href="https://www.abc.net.au/" target="_blank">
+                            <img src="/Images/dikaseva-8o4W9LZv6eo-unsplash.jpg" width="200px" height="100px">
+                        </a><br>
+                        <a href="https://www.abc.net.au/" target="_blank">News Item 2</a>
+                    </article>
+                </div>
+            
+                <div class="article">
+                    <article>
+                        <a href="https://www.abc.net.au/" target="_blank">
+                            <img src="/Images/dikaseva-8o4W9LZv6eo-unsplash.jpg" width="200px" height="100px">
+                        </a><br>
+                        <a href="https://www.abc.net.au/" target="_blank">News Item 3</a>
+                    </article>
+                </div>
+                    
+                <div class="article">
+                    <article>
+                        <a href="https://www.abc.net.au/" target="_blank">
+                            <img src="/Images/dikaseva-8o4W9LZv6eo-unsplash.jpg" width="200px" height="100px">
+                        </a><br>
+                        <a href="https://www.abc.net.au/" target="_blank">News Item 4</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div id="matches">
+                <h1 class="margin heading-2em">Matches</h1>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Game</th>
+                            <th>Result</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="table-cells">22nd October, 2023</td>
+                            <td class="table-cells">FutureSports vs Team 1</td>
+                            <td class="table-cells">FutureSports won</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cells">29th October, 2023</td>
+                            <td class="table-cells">Team 2 vs FutureSports</td>
+                            <td class="table-cells">FutureSports won</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cells">5th November, 2023</td>
+                            <td class="table-cells">FutureSports vs Team 3</td>
+                            <td class="table-cells">FutureSports lost</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cells">12th November, 2023</td>
+                            <td class="table-cells">FutureSports vs Team 4</td>
+                            <td class="table-cells">-</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cells">19th November, 2023</td>
+                            <td class="table-cells">Team 5 vs FutureSports</td>
+                            <td class="table-cells">-</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <h1 class="margin heading-2em">Blog</h1>
+            </div>
+
+        <div class="flex-container">
+            <div class="left-blog-column">
+                <h2>Coach's corner</h2>
+                <h5>Match review, November 6, 2023</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+
+            <div class="right-blog-column">
+                <h2>Coach's corner</h2>
+                <h5>Match preview, November 11, 2023</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+        </section>
+
+        <section>
+            <h1 class="margin heading-2em">Merchandise</h1>
+            <p id="item1" class="centerAlign"></p>
+            <p id="item2" class="centerAlign"></p>
+            <p id="item3" class="centerAlign"></p>
+        </section>
+
+        <!-- centre page -->
+        <section id="contact-us">
+            <div class="contact">
+                <h1>Contact Us</h1>
+                <p>Phone: xxxxxxxxxx</p>
+                <p>Email: contact@futuresports.com</p>
+                <p>Address: 16 Example Street, Melbourne VIC 3000</p>
+                <h4>or fill out the form below:</h4>
+                <form name="tForm"  onsubmit="return checkForm()">
+                    <label for="name" class="form-margins">Name: </label>
+                    <input type="text" title="firstname" placeholder="Enter your name." class="form-margins" required><br>
+                    <label for="email" class="form-margins">Email: </label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email." class="form-margins" required><br>
+                    <label for="photo" class="form-margins">Send us a photo: </label>
+                    <input type="file" name="photo" class="form-margins"><br>
+                    <label for="message" class="form-margins">Send us a message: </label><br>
+                    <textarea name="tInput"" rows="5" cols="40" placeholder="Enter your message" class="form-margins"></textarea>
+                    <button type="submit" class="form-margins" value="click">Send</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <ul class="footer-ul">
+            <li>Copyright</li>
+            <li>Privacy Statement</li>
+            <li>Careers</li>
+            <li>Terms and Conditions</li>
+        </ul>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
